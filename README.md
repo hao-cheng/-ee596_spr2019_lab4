@@ -69,7 +69,7 @@ Here let's use the model in the toy task of sorting numbers.
     ```
     * During the training, you will see messages such as log-likelihood and [perplexity](https://en.wikipedia.org/wiki/Perplexity).
     If the model is correct, the model perplexity should be decreasing and the log-likelihood should be increasing.
-    * The final `log-likelihood` on the validation data should be large than `-250`.
+    * When the model converges, your `log-likelihood` on the validation data should be larger than `-250`.
 * To sort a number sequence, the trained RNN model first reads the number sequence and the special token `<sort>`.
 Then it greedily searches for the most likely number (from 0 to 9) one by one until the 5 numbers are generated.
     * Complete the `sort_number_sequence` in the `src/run_rnn_model_for_sorting_numbers` to implement this greedy search algorithm.
