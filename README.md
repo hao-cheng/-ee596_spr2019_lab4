@@ -11,7 +11,7 @@ In this lab, you will learn the basic math behind the RNN and use it in two toy 
 * Numpy >= 1.16.2
 
 ## Task 1: RNN basics
-Please follow instructions in `notebook/rnn_basics.ipynb` to implement an RNN unit.
+Please follow instructions in the python notebook `rnn_basics.ipynb` to implement an RNN unit.
 
 ## Task 2: RNN sequence modeling
 In this task, we will build an RNN sequence model using the math you learned from Task 1.
