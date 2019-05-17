@@ -118,7 +118,7 @@ probability distribution over characters estimated by the RNN model.
     ```bash
     python3 -m src.run_rnn_model_for_character_lm \
       --inmodel character_lm_model.pkl \
-      --vocabfile data/tinyshakespeare/vocab.txt
+      --vocabfile data/tinyshakespeare/voc.txt
     ```
     * It is harder to predict a character than a number in Task 2 as suggested by the higher perplexity.
     Nevertheless, you should still be able to see some meaningful word and phrases in the generated sentence.
