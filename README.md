@@ -109,7 +109,7 @@ The trained language model can predict next characters given the previous charac
       --bptt 10 \
       --validate
     ```
-    * The final `perplexity` on the validation data should be less than `6.15`.
+    * When the model converges, `perplexity` on the validation data should be less than `6.15`.
 * In Task 3, we generate the sorted number sequence by searching for the "most" likely number at each time step.
 Here, we use another approach to generate sequences using the trained RNN model, i.e., sampling from the 
 probability distribution over characters estimated by the RNN model.
