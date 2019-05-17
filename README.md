@@ -131,5 +131,5 @@ probability distribution over characters estimated by the RNN model.
 
 ## Lab Report
 * Upload `rnn_unit.py`, `rnn_model.py`, `run_rnn_model_for_sorting_number.py` and `run_rnn_model_for_character_lm.py`.
-* Report the final log-likelihood and perplexity on the validation set for Task 2 and Task 3. 
-* Discuss what kind of errors the model usually makes in Task 2.
+* Report the final log-likelihood and perplexity on the validation set for Task 3 and Task 4. 
+* Discuss what kind of errors the model usually makes in Task 3.
